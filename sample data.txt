@@ -1,0 +1,48 @@
+insert into admin values(1,"admin@gmail.com", "Admin","admin1");
+
+insert into person values(default,0,"admin@gmail.com", "admin1", default, "ADMIN");
+
+
+insert into person values (default,0,'d1@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d2@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d3@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d4@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d5@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d6@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d7@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d8@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d9@gmail.com','123456',default,'DONOR');
+insert into person values (default,0,'d10@gmail.com','123456',default,'DONOR');
+
+insert into person values (default,0,'S1@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S2@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S3@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S4@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S5@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S6@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S7@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S8@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S9@gmail.com','123456',default,'SEEKER');
+insert into person values (default,0,'S10@gmail.com','123456',default,'SEEKER');
+
+insert into donor_info values( 2,21,1,'A+','d1@gmail.com','donor1',1,1,'donor_s1','2021-02-01',1,'1212121212',default,'Maharashtra',1);
+insert into donor_info values( 3,23,1,'A+','d2@gmail.com','donor2',1,1,'donor_s2','2020-12-02',1,'1313131313',default,'Madhya Pradesh',1);
+insert into donor_info values( 4,26,1,'A-','d3@gmail.com','donor3',1,1,'donor_s3','2020-12-05',1,'1414141414',default,'Kerala',1);
+insert into donor_info values( 5,30,1,'AB+','d4@gmail.com','donor4',1,1,'donor_s4','2021-01-04',1,'1515151515',default,'Maharashtra',1);
+insert into donor_info values( 6,31,1,'AB-','d5@gmail.com','donor5',1,1,'donor_s5','2021-02-12',1,'1616161616',default,'Rajasthan',1);
+insert into donor_info values( 7,35,1,'A-','d6@gmail.com','donor6',1,1,'donor_s6','2020-12-15',1,'1717171717',default,'Madhya Pradesh',1);
+insert into donor_info values( 8,37,1,'B+','d7@gmail.com','donor7',1,1,'donor_s7','2021-02-12',1,'6574367931',default,'Rajasthan',1);
+insert into donor_info values( 9,28,1,'B-','d8@gmail.com','donor8',1,1,'donor_s8','2021-02-10',1,'5674563153',default,'Kerala',1);
+insert into donor_info values(10,29,1,'O-','d9@gmail.com','donor9',1,1,'donor_s9','2021-01-10',1,'7856432567',default,'Goa',1);
+insert into donor_info values(11,30,1,'O+','d10@gmail.com','donor10',1,1,'donor_s10','2020-12-22',1,'9845134526',default,'Goa',1);
+
+insert into seeker_info values(12,35,'A+','s1@gmail.com','seeker1',1,'seeker_s1','1717171717',default,1,'Uttar Pradesh','2020-12-05');
+insert into seeker_info values(13,21,'AB+','s2@gmail.com','seeker2',1,'seeker_s2','1818181818',default,1,'Karnataka','2021-01-15');
+insert into seeker_info values(14,32,'O+','s3@gmail.com','seeker3',1,'seeker_s3','1919191919',default,1,'Maharashtra','2021-02-01');
+insert into seeker_info values(15,26,'B+','s4@gmail.com','seeker4',1,'seeker_s4','1010101010',default,1,'Kerala','2020-11-14');
+insert into seeker_info values(16,30,'A+','s5@gmail.com','seeker5',1,'seeker_s5','2346432134',default,1,'Rajasthan','2021-02-11');
+insert into seeker_info values(17,31,'A-','s6@gmail.com','seeker6',1,'seeker_s6','3158435673',default,1,'Tamil Nadu','2021-01-20');
+insert into seeker_info values(18,34,'O-','s7@gmail.com','seeker7',1,'seeker_s7','2654367859',default,1,'Uttar Pradesh','2021-01-23');
+insert into seeker_info values(19,30,'B-','s8@gmail.com','seeker8',1,'seeker_s8','9754163506',default,1,'Telangana','2020-12-22');
+insert into seeker_info values(20,37,'A-','s9@gmail.com','seeker9',1,'seeker_s9','8541452458',default,1,'Tamil Nadu','2021-02-22');
+insert into seeker_info values(21,29,'AB-','s10@gmail.com','seeker10',1,'seeker_s10','8976525645',default,1,'Maharashtra','2021-02-22');
