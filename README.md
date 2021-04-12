@@ -18,7 +18,7 @@ Web Development - HTML, CSS, JavaScript
 
 # Overview
 ▪ Purpose          
-To create a web-based app that acts as a platform, people looking for convalescent plasma can find willing donors, and contact them to undergo the plasma transfusion process.
+To create a web-based app that acts as a platform, people looking for convalescent plasma can find willing donors, and contact them to undergo the plasma transfusion process.          
 ▪ Scope         
 This web-based app is designed to;     
 ▪ Assist plasma seekers find willing donors by,       
